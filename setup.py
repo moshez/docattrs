@@ -16,7 +16,7 @@ setuptools.setup(
     package_dir={"": "src"},
     install_requires=["incremental", "attrs", "publication"],
     extras_require=dict(
-        test=["pytest", "coverage"],
+        test=["coverage", "virtue", "pyhamcrest"],
         lint=["black", "flake8", "mypy"],
         doc=["sphinx"],
     ),

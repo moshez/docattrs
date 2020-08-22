@@ -7,5 +7,5 @@ Provides docattrs version information.
 
 from incremental import Version
 
-__version__ = Version('docattrs', 20, 8, 0)
+__version__ = Version("docattrs", 20, 8, 0)
 __all__ = ["__version__"]
