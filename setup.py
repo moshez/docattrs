@@ -20,5 +20,5 @@ setuptools.setup(
         lint=["black", "flake8", "mypy"],
         doc=["sphinx"],
     ),
-    python_requires='>=3.8',
+    python_requires=">=3.8",
 )
